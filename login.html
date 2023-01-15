@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+    <div class="back">
+        <div class="form">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-bit">Log in</button>
+
+
+            </div>
+            <div class="socialicons">
+                <img src="pictures/kb.png" alt="">
+                <img src="pictures/twitter.png" alt="">
+                <img src="pictures/insta.png" alt="">
+            </div>
+            <form action="" class="inputgrp">
+                <input type="text" class="inputfeild" placeholder="User ID" required>
+                <input type="text" class="inputfeild" placeholder="Enter Password" required>
+                <input type="checkbox" class="check"><span>remember Password</span>
+                <button type="button" class="submitbutton">Sign in</button>
+                <div class="ab"> Don't have account. <a href="register.html" class="sign">Sign Up</a> here</div>
+            </form>
+
+
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+
+        var y = document.getElementsByClassName("inputgrp1");
+        var z = document.getElementsById("btn");
+        function register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login() {
+
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+
+
+    </script>
+</body>
+
+</html>
